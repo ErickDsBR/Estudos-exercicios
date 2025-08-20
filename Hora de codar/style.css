@@ -1,0 +1,25 @@
+*{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    display: flex;
+
+}
+.form-label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    justify-content: center;
+    display: flex;
+
+}
+.form-input{
+    display: flex;
+    size: 100px;
+}
+h2{
+    font-size: 100px;
+}
