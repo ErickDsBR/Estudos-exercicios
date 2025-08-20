@@ -1,4 +1,4 @@
-const h2 = document.querySelector('h2')
+const h2 = document.querySelector('h2');
 const campotext = document.getElementById("campotext");
 const botaoenviar = document.getElementById("button");
 
