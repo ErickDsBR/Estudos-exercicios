@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 Meu Repositório de Estudos em Programação
 
 👋 Olá, seja bem-vindo(a)!
