@@ -8,14 +8,12 @@
 </head>
 <body>
     <div class="fundo">
-        <div id="dp" class="display">
-            <h1 id="n1"></h1>
-            <h1 id="opr"></h1>
-            <h1 id="n2"></h1>
+        <div class="display">
+            <input id="dp" type="text" disabled>
         </div>
-        <div id="but" class="botoes">
+        <div class="botoes">
             <button onclick="limpar()" class="funcao">C</button>
-            <button onclick="delete()" class="funcao">&lt;</button> 
+            <button onclick="back()" class="funcao">&lt;</button> 
             <button onclick="insertToDisplay('')" class="funcao"></button>
             <button onclick="insertToDisplay('/')" class="operador">/</button>
             <button onclick="insertToDisplay('7')" class="num">7</button>

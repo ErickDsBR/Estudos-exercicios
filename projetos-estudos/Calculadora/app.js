@@ -1,11 +1,12 @@
 function insertToDisplay(data){    
-    document.getElementById("n1").innerText += data
+    document.querySelector('#dp').value+= data
     
-}
+};
 function limpar(){
-     document.getElementById("n1").innerText = '0';
-}
-function delete(){
-    document.getElementById("n1").innerText = ;
-
-}
+     document.querySelector("#dp").value = '';
+};
+ function back(){
+    const dp = document.querySelector('#dp')
+    dp.value = dp.value.slice(0, -1)
+ }
+ 
