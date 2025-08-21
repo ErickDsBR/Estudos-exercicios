@@ -33,4 +33,4 @@ Este repositório é um ambiente de aprendizado contínuo. Aqui você encontrar�
 Como este é um ambiente focado em estudo, muitos dos códigos aqui podem ser experimentais ou estar em processo de desenvolvimento. O foco principal é a aprendizagem e a prática, e não necessariamente a criação de software pronto para produção.
 
 Obrigado pela visita e sinta-se à vontade para explorar os diretórios!
->>>>>>> 483ba1fb59315590ad43550e4d9f2542e4db97b9
+
