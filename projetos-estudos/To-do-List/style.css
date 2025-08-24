@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+
+}
+.fundo{
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid;
+    display: flex;
+    width: 50rem;
+    height: 40rem;
+    
+}
+.fundo label{
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.fundo h2{
+    justify-content: center;
+    display: flex;
+
+}
+.fundo button{
+    flex-direction: column;
+    width: 100px;
+
+
+}
+label input{
+    border-radius: 40px;
+    text-align: center;
+    font-size: 2rem;
+    width: 30rem;
+    height: 4rem;
+
+}
