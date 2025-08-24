@@ -40,6 +40,13 @@ body{
 
 
 }
+.fundo li{
+    
+    text-decoration: none;
+
+
+
+}
 label input{
     border-radius: 40px;
     text-align: center;
@@ -48,3 +55,4 @@ label input{
     height: 4rem;
 
 }
+

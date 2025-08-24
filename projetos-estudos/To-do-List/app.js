@@ -1,8 +1,11 @@
-function salvartarefa(){
-    const nomeTarefa = document.getElementById('tarefa').value 
-    localStorage.setItem('Tarefas', nomeTarefa);        
-}
-function trfcomplete(){
+function salvartarefa(){    
+    const inputTarefa = document.getElementById('tarefa').value
+    const listaTarefa = document.getElementById('lista')
+    const novaTarefa = document.createElement('li')
 
+    novaTarefa.textContent = inputTarefa
+
+    listaTarefa.appendChild(novaTarefa)
 
 }
+
