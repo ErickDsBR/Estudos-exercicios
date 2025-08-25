@@ -12,10 +12,10 @@
     var x = 10;
     console.log(x);
 
-    //Diferente de uma string nao precisamos usar aspas so atribir um valor o java script ja identifica o tipo.
+    //Diferente de uma string nao precisamos usar aspas so atribir um valor o java script ja identifica o tipo. podem ser inteiros (10) decimais (3.314324) ou Negativos (-10)
 
-    //Dados Boolean Sao dados que guardam valores de True e False.
-
+    //Dados Boolean Sao dados que guardam valores de True e False. Normalmente utilizado em condições e loops para controlar o fluxo do programa
+    
     const login = true
     const permissao = false
     
