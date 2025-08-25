@@ -2,9 +2,8 @@ function salvartarefa(){
     //este captura o valor do input no html trazendo o valor para ser manipulado no html
     const inputTarefa = document.getElementById('tarefa').value
     // esta entrando valor vazio na lista ainda par resolver...
-    if(inputTarefa){
-        inputTarefa === ''
-        document.getElementById('erro').innerText = 'erro'
+    if(inputTarefa == ''){
+        document.getElementById('erro').innerText = 'Digite Alguma Tarefa!'
     }
 
     //selecionar aonde vai ser adicioado o elemento para lista
@@ -19,4 +18,3 @@ function salvartarefa(){
     listaTarefa.appendChild(novaTarefa)
 
 }
-
